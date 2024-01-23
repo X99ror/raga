@@ -35,6 +35,9 @@
     align-self: stretch;
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.20);
+    @media(max-width:550px){
+        width: 70%;
+      }
 }
 .img-bo1,.img-bo2,.img-bo3{
     display: flex;
@@ -104,6 +107,9 @@
     gap: 24px;
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.20);
+    @media(max-width:550px){
+        width: 70%;
+      }
 }
 .bl-2:hover{
     background-color: #00ff15c2;
