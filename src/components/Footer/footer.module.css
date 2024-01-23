@@ -1,0 +1,126 @@
+.page{
+    position:fixed;
+    @media(max-width:550px){
+        width:100%;
+      }
+    
+}
+.footer{
+    display: flex;
+    width: 1440px;
+    padding: 42px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    position: absolute;
+}
+.block1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+}
+.img1{
+    width: 85px;
+    height: 103.545px;
+    background-image: url('../../../public/images/image\ 8.png');
+}
+.block2{
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+.img-box1,.img-box2,.img-box3,.img-box4{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 3px solid #585858;
+    background: rgba(255, 255, 255, 0.50);
+
+}
+.img-box1:hover{
+    
+    transform: scale(2);
+}
+.img-box2:hover{
+    
+    transform: scale(2);
+}
+.img-box3:hover{
+    
+    transform: scale(2);
+}
+.img-box4:hover{
+    
+    transform: scale(2);
+}
+.img3{
+    width: 25px;
+    height: 24.988px;
+    flex-shrink: 0;
+    background: url('../../../public/images/image\ 5.png'), lightgray 50% / cover no-repeat;
+
+}
+.img4{
+    width: 25px;
+    height: 23.148px;
+    flex-shrink: 0;
+    background: url('../../../public/images/image\ 3.png'), lightgray -8.013px 0px / 164.103% 100% no-repeat;
+
+}
+.img5{
+    width: 28px;
+    height: 20.276px;
+    flex-shrink: 0;
+    background: url('../../../public/images/image\ 6\(1\).png'), lightgray 0px -4.361px / 100% 143.017% no-repeat;
+    
+}
+.img6{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    background: url('../../../public/images/image\ 7.png'), lightgray 50% / cover no-repeat;
+}
+.block3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.block3:hover{
+    
+    transform: scale(1.5);
+}
+.line1{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.line2{
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.line3{
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}

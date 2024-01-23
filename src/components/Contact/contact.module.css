@@ -1,0 +1,166 @@
+.page{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.contact-us{
+    color: #000;
+    font-family: "IBM Plex Serif";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top:135px ;
+    margin-left:150px ;
+    margin-right:996px ;
+    
+}
+.contact-us:hover{
+    text-decoration: underline;
+}
+.center{
+    display: flex;
+    width: 1040px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 48px 200px 164px 200px;
+}
+.bl-1,.bl-3{
+    display: flex;
+    padding: 36px 76px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+}
+.img-bo1,.img-bo2,.img-bo3{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #000;
+    
+}
+
+.im1,.im2,.im3{
+    width: 37px;
+    height: 37px;
+}
+.im1{
+    background-image: url('../../../public/images/call.png');
+}
+.img-bo1:hover{
+    transform: scale(1.1);
+}
+.im2{
+    background-image: url('../../../public/images/pin_drop.svg');
+}
+.img-bo2:hover{
+    transform: scale(1.1);
+}
+.im3{
+    background-image: url('../../../public/images/mail.png');
+}
+.img-bo3:hover{
+    transform: scale(1.1);
+}
+
+.by-phone{
+    width: 108px;
+    height: 19px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;   
+    line-height: normal;
+    letter-spacing: 3.2px;
+    margin-top: 16px;
+}
+.text1{
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.bl-2{
+    display: flex;
+    padding: 36px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+}
+.bl-2:hover{
+    background-color: #00ff15c2;
+    color: black;
+    border-color: black;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.bl-3:hover{
+    background-color: rgb(0, 255, 255);
+    color: black;
+    border-color: black;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.bl-1:hover{
+    background-color: rgb(255, 94, 0);
+    color: black;
+    border-color: black;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+  
+
+
+.find-us,.by-email{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    margin-top: 16px;
+}
+.text2,.text3{
+    color: rgba(0, 0, 0, 0.50);
+    width: 253px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+.text1:hover{
+    color:black;
+}
+.text2:hover{
+    color:black;
+}
+.text3:hover{
+    color:black;
+}
+.bl-3{
+    padding: 36px 62px;
+}
+
+
